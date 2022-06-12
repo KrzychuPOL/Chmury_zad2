@@ -3,7 +3,7 @@
 ## Konfiguracja repozytorium
 
 Należy ustawić odpowiednie zmienne środowiskowe, polecenie **docker stack** nie wczytuje zmiennych środowiskowych z plików `.env`. Konieczne jest wykorzystanie funkcjonalność używanej powłoki `$ENV:[nazwa]` w PowerShell. Do wczytania konfiguracji z pliku, możemy wykorzystać polecenie `env` - aby ustawić dla całej bieżącej sesji powłoki:
-
+![screen3](./Scr/3-prod.png)
 
 
 Wersja stack / swarm wymaga ustawienia zmiennej środowiskowej TCH_REPLICAS - oznaczającą ilość replik każdego z poszczególnych kontenerów.
